@@ -1,16 +1,5 @@
-# icaur 
-Extremely simple AUR PKGBUILD file downloader written in C.
+# icaur
+Simple AUR PKGBUILD file downloader
 ## Dependencies
-```
-curl
-cjson
-```
-## Usage with gcc
-Compile the main.c file
-```
-gcc -o icaur main.c -lcurl -lcjson
-```
-Run the compiled file
-```
-./icaur
-```
+`curl`
+`cjson`
